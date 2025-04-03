@@ -1,0 +1,12 @@
+*{margin:0;padding:0;overflow:visible;user-select:none} 
+@font-face{font-family:'hell';src:url('hell.otf') format('opentype');font-weight:normal;font-style:normal} 
+h1{margin-top:10px;font-size:30px;font-family:'hell';padding-top:100px;color:#fff} 
+body{overflow:visible;font-family:Arial,sans-serif;text-align:center;background:black;color:white;height:100vh;display:flex;justify-content:center;align-items:center;pointer-events:none;cursor:none;background-image:url('16.png');background-size:cover;background-position:center;background-repeat:no-repeat} 
+@media (max-width:768px){body{background-image:url('9.png')}} 
+button{margin-top:40px;font-size:20px;padding:1% 2%;background:rgba(255,255,255,0.082);color:white;border:1px solid rgba(255,0,0,0.5);box-shadow:0 0 20px 1px rgba(255,0,0,0.5);cursor:pointer;border-radius:5px;pointer-events:auto} 
+button:hover{background:darkred} 
+.wrapper{display:flex;justify-content:center;align-items:center;height:80vh;padding:20px} 
+.killer{display:block;border:1px solid rgba(255,0,0,0.5);background:rgba(0,0,0,0.644);justify-content:center;align-items:center;height:300px;width:300px;border-radius:10px;box-shadow:0 0 20px 1px rgba(255,0,0,0.5)} 
+.footer{display:block;background:#011014;border:1px solid rgba(89,0,255,0.404);justify-content:center;align-items:center;margin-top:9%;padding-top:3%;padding-bottom:3%;border-radius:10px;box-shadow:0 0 20px 1px rgba(77,1,255,0.5)} 
+.case{display:block;justify-content:center;align-items:center} 
+a{z-index:1000;text-decoration:none;cursor:pointer;pointer-events:auto;color:aliceblue}
